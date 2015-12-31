@@ -1,4 +1,40 @@
-.nav{
-	background-color: black;
+/* START Navigation Bar CSS */
+
+.nav ul{
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	
+	/* This keeps the nav bar fixed in position, even when you scroll */
+	position: fixed;
+	top: 0;
+	width: 100%;
+	/* End fixed nav bar */
 }
 
+.nav li{
+	float: left;
+}
+
+.nav li a{
+	display:block;
+	color: white;
+	text-align:center;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	background-color: #111;
+	color: green;
+}
+
+/* ToDO: After pages are added, highligh selected tab as green */
+.active {
+	background-color: #4CAF50;
+}
+
+/* END Navigation Bar CSS */

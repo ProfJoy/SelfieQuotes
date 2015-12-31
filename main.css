@@ -1,24 +1,21 @@
+
 /* START Navigation Bar CSS */
 
-.nav ul{
+.navi ul{
 	list-style-type:none;
 	margin:0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
 	
-	/* This keeps the nav bar fixed in position, even when you scroll */
-	position: fixed;
-	top: 0;
-	width: 100%;
-	/* End fixed nav bar */
+
 }
 
-.nav li{
+.navi li{
 	float: left;
 }
 
-.nav li a{
+.navi li a{
 	display:block;
 	color: white;
 	text-align:center;
@@ -27,7 +24,7 @@
 	color: white;
 }
 
-li a:hover{
+li a:hover:not(.active) {
 	background-color: #111;
 	color: green;
 }

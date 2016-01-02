@@ -24,7 +24,7 @@
 	color: white;
 }
 
-li a:hover:not(.active) {
+.navi li a:hover:not(.active) {
 	background-color: #111;
 	color: green;
 }
@@ -69,11 +69,34 @@ li a:hover:not(.active) {
 	margin: auto;
 }
 
-
-
-
-
-
-
-
 /* END Jumbotron CSS */
+
+/* START Expos CSS */
+.expos{
+	text-align:center;
+}
+.expos ul{
+	display:inline-table;
+	list-style-type:none;
+	text-align:center;
+	width:250px;
+	
+}
+
+.expos li{
+	width:80%;
+
+}
+
+.expos ul > li + li{
+	margin-bottom:5px;
+}
+
+.expos a{
+	color: grey;
+	font-size:18px;
+}
+
+
+
+/* END Expos CSS */

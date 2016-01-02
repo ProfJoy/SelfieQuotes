@@ -74,23 +74,24 @@
 /* START Expos CSS */
 .expos{
 	text-align:center;
+
 }
 .expos ul{
 	display:inline-table;
 	list-style-type:none;
 	text-align:center;
 	width:250px;
+
 	
 }
 
 .expos li{
 	width:80%;
+	padding-bottom: 5px;
 
 }
 
-.expos ul > li + li{
-	margin-bottom:5px;
-}
+
 
 .expos a{
 	color: grey;

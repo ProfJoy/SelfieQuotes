@@ -98,6 +98,25 @@
 	font-size:18px;
 }
 
-
+.expos img{
+	max-width:15%;
+	height:15%;
+}
 
 /* END Expos CSS */
+
+/* START RecArc CSS */
+
+
+/* END RecArc CSS*/
+
+
+/* START Footer CSS */
+footer{
+	background-color:grey;
+}
+
+footer h3{
+	text-align:center;
+}
+/* END Footer CSS */
